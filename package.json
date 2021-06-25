@@ -2,13 +2,12 @@
   "name": "auth_server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js", 
+  "main": "index.js", 
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "npm ci && npm start"
+    "start": "node server.js"
   }, 
   "keywords": [],
   "author": "",
